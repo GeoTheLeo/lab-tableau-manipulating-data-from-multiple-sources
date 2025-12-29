@@ -1,0 +1,1255 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.25.1210.1815                               -->
+<workbook original-version='18.1' source-build='2025.3.1 (20253.25.1210.1815)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='tabula-nz_water_water_resources (tabula-nz_water_water_resources)' inline='true' name='federated.1pr9wcq1lpl56t17o5gn803vibdv' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tabula-nz_water_water_resources' name='excel-direct.0vwa80k1s4qco112qrgi3005kej0'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/profe/Documents/Ironhack/lab-tableau-manipulating-data-from-multiple-sources/files_for_lab/tabula-nz_water_water_resources.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0vwa80k1s4qco112qrgi3005kej0' name='tabula-nz_water_water_resources A1:B8' table='[tabula-nz_water_water_resources$A01:B08]' type='table'>
+          <columns gridOrigin='A1:B8:no:A1:P16:0' outcome='2'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tabula-nz_water_water_resources A1:B8]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B8:no:A1:P16:0&quot;</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[tabula-nz_water_water_resources A1:B8]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[tabula-nz!water!water!resources$A01:B08_797C78567B154239ABC32695FF140F84]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[tabula-nz_water_water_resources A1:B8]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[tabula-nz!water!water!resources$A01:B08_797C78567B154239ABC32695FF140F84]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='tabula-nz_water_water_resources A1:B8' datatype='table' name='[__tableau_internal_object_id__].[tabula-nz!water!water!resources$A01:B08_797C78567B154239ABC32695FF140F84]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/profe/AppData/Local/Temp/TableauTemp/#TableauTemp_1vgfc980wqoh8m14ysmq70uprir4.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='12/27/2025 05:10:55 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>tabula-nz_water_water_resources A1:B8</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[tabula-nz!water!water!resources$A01:B08_797C78567B154239ABC32695FF140F84]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F2</remote-alias>
+              <ordinal>1</ordinal>
+              <family>tabula-nz_water_water_resources A1:B8</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[tabula-nz!water!water!resources$A01:B08_797C78567B154239ABC32695FF140F84]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='tabula-nz_water_water_resources A1:B8' id='tabula-nz!water!water!resources$A01:B08_797C78567B154239ABC32695FF140F84'>
+            <properties context=''>
+              <relation connection='excel-direct.0vwa80k1s4qco112qrgi3005kej0' name='tabula-nz_water_water_resources A1:B8' table='[tabula-nz_water_water_resources$A01:B08]' type='table'>
+                <columns gridOrigin='A1:B8:no:A1:P16:0' outcome='2'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='F2' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Water_Data_Long (nz_water_data_long)' inline='true' name='federated.0tepc251nzdbhi14nu1rk0xlgrfb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='nz_water_data_long' name='excel-direct.1dvjqo80bab5gu16i8x5216qpndl'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/profe/Documents/Ironhack/lab-tableau-manipulating-data-from-multiple-sources/nz_water_data_long.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1dvjqo80bab5gu16i8x5216qpndl' name='Water_Data_Long' table='[Water_Data_Long$]' type='table'>
+          <columns gridOrigin='A1:G209:no:A1:G209:0' header='yes' outcome='6'>
+            <column datatype='string' name='Component' ordinal='0' />
+            <column datatype='string' name='Category' ordinal='1' />
+            <column datatype='string' name='Unit' ordinal='2' />
+            <column datatype='string' name='Country' ordinal='3' />
+            <column datatype='string' name='Source' ordinal='4' />
+            <column datatype='integer' name='Year' ordinal='5' />
+            <column datatype='integer' name='Volume' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Water_Data_Long]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G209:no:A1:G209:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Component</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Component]</local-name>
+            <parent-name>[Water_Data_Long]</parent-name>
+            <remote-alias>Component</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Water_Data_Long]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unit</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Unit]</local-name>
+            <parent-name>[Water_Data_Long]</parent-name>
+            <remote-alias>Unit</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Water_Data_Long]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Source]</local-name>
+            <parent-name>[Water_Data_Long]</parent-name>
+            <remote-alias>Source</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Water_Data_Long]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Volume</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Volume]</local-name>
+            <parent-name>[Water_Data_Long]</parent-name>
+            <remote-alias>Volume</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Net Balance' datatype='integer' name='[Calculation_3056389536653312]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Component] = &quot;Total inflows&quot; THEN [Volume]&#13;&#10;   ELSEIF [Component] = &quot;Total outflows&quot; THEN -[Volume]&#13;&#10;   END' />
+      </column>
+      <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Component]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='Water_Data_Long' datatype='table' name='[__tableau_internal_object_id__].[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]' role='measure' type='quantitative' />
+      <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Component]' derivation='None' name='[none:Component:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/profe/AppData/Local/Temp/TableauTemp/#TableauTemp_17ak8xd0vqjrpk1fl7q7g1r0ysnm.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='12/29/2025 09:29:41 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Component</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Component]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Component</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Water_Data_Long</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Water_Data_Long</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unit</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Unit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unit</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Water_Data_Long</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Water_Data_Long</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Source</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Source]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Source</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Water_Data_Long</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Water_Data_Long</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Volume</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Volume]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Volume</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Water_Data_Long</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>192</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Component:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Soil moisture&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Abstraction for hydroelectricity&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ice&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Total outflows&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;To sea and net abstraction&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Lakes and reservoirs&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Discharge from hydroelectricity generation&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Precipitation&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Total change in storage&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Snow&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Evapotranspiration&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Total inflows&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Groundwater&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Category:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Change in storage&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Outflows&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Inflows&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Water_Data_Long' id='Water!Data!Long_5F22ADB5AE6C4E3FB5A7C34D3D9640F6'>
+            <properties context=''>
+              <relation connection='excel-direct.1dvjqo80bab5gu16i8x5216qpndl' name='Water_Data_Long' table='[Water_Data_Long$]' type='table'>
+                <columns gridOrigin='A1:G209:no:A1:G209:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Component' ordinal='0' />
+                  <column datatype='string' name='Category' ordinal='1' />
+                  <column datatype='string' name='Unit' ordinal='2' />
+                  <column datatype='string' name='Country' ordinal='3' />
+                  <column datatype='string' name='Source' ordinal='4' />
+                  <column datatype='integer' name='Year' ordinal='5' />
+                  <column datatype='integer' name='Volume' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_10F23E085AE34058A98C484FA75AE031]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='NZ Water Outflows' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_66825C567E6446248E539A3F78A13DA3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Water Components by Year' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Annual Water Balance Bar Chart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Water_Data_Long (nz_water_data_long)' name='federated.0tepc251nzdbhi14nu1rk0xlgrfb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tepc251nzdbhi14nu1rk0xlgrfb'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Component]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Volume]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Component]' derivation='None' name='[none:Component:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Volume]' derivation='Sum' name='[sum:Volume:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Component:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Component:nk]' member='&quot;Total change in storage&quot;' />
+              <groupfilter function='member' level='[none:Component:nk]' member='&quot;Total inflows&quot;' />
+              <groupfilter function='member' level='[none:Component:nk]' member='&quot;Total outflows&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]' included-values='in-range' />
+          <slices>
+            <column>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Component:nk]</column>
+            <column>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Category:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[sum:Volume:qk]</rows>
+        <cols>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{58202D11-77AE-4289-A236-000BBC3B6A22}' />
+    </worksheet>
+    <worksheet name='KPI Inflows'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Water_Data_Long (nz_water_data_long)' name='federated.0tepc251nzdbhi14nu1rk0xlgrfb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tepc251nzdbhi14nu1rk0xlgrfb'>
+            <column datatype='integer' name='[Volume]' role='measure' type='quantitative' />
+            <column-instance column='[Volume]' derivation='Avg' name='[avg:Volume:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[avg:Volume:qk]' included-values='in-range'>
+            <min>188093.59615384616</min>
+            <max>188093.59615384616</max>
+          </filter>
+          <slices>
+            <column>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[avg:Volume:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[avg:Volume:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D27617A6-7407-44CF-97E2-BAE2891235B9}' />
+    </worksheet>
+    <worksheet name='NZ Water Inflows'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>New Zealand Water Inflows (1995-2010)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Water_Data_Long (nz_water_data_long)' name='federated.0tepc251nzdbhi14nu1rk0xlgrfb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tepc251nzdbhi14nu1rk0xlgrfb'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Component]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Volume]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Component]' derivation='None' name='[none:Component:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Volume]' derivation='Sum' name='[sum:Volume:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Category:nk]'>
+            <groupfilter function='member' level='[none:Category:nk]' member='&quot;Inflows&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]' included-values='in-range' />
+          <slices>
+            <column>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Category:nk]</column>
+            <column>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[sum:Volume:qk]' value='N' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Component:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[sum:Volume:qk]</rows>
+        <cols>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{F0290EB4-E668-4DC7-ADF1-F4E8687AC023}' />
+    </worksheet>
+    <worksheet name='NZ Water Outflows'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Water_Data_Long (nz_water_data_long)' name='federated.0tepc251nzdbhi14nu1rk0xlgrfb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tepc251nzdbhi14nu1rk0xlgrfb'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Component]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Volume]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Component]' derivation='None' name='[none:Component:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Volume]' derivation='Sum' name='[sum:Volume:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Component:nk]'>
+            <groupfilter function='level-members' level='[none:Component:nk]' />
+          </filter>
+          <filter class='quantitative' column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]' included-values='in-range' />
+          <slices>
+            <column>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Component:nk]</column>
+            <column>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Component:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Category:nk] * [federated.0tepc251nzdbhi14nu1rk0xlgrfb].[sum:Volume:qk])</rows>
+        <cols>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{E0EEDFB9-6E11-40B5-820A-A33180DEB39C}' />
+    </worksheet>
+    <worksheet name='Water Components by Year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Water_Data_Long (nz_water_data_long)' name='federated.0tepc251nzdbhi14nu1rk0xlgrfb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tepc251nzdbhi14nu1rk0xlgrfb'>
+            <column datatype='string' name='[Component]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Volume]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Component]' derivation='None' name='[none:Component:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Volume]' derivation='Sum' name='[sum:Volume:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]' included-values='in-range' />
+          <slices>
+            <column>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[sum:Volume:qk]' value='n#,##0,K;-#,##0,K' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[sum:Volume:qk]' max='701394' min='-184698' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[sum:Volume:qk]' />
+              <text column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[sum:Volume:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Component:nk]</rows>
+        <cols>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{A2612DD8-FC50-41E8-A3C4-2B08EBFFB791}' />
+    </worksheet>
+    <worksheet name='Waterfall'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Water_Data_Long (nz_water_data_long)' name='federated.0tepc251nzdbhi14nu1rk0xlgrfb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tepc251nzdbhi14nu1rk0xlgrfb'>
+            <column caption='Net Balance' datatype='integer' name='[Calculation_3056389536653312]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Component] = &quot;Total inflows&quot; THEN [Volume]&#13;&#10;   ELSEIF [Component] = &quot;Total outflows&quot; THEN -[Volume]&#13;&#10;   END' />
+            </column>
+            <column datatype='string' name='[Component]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Volume]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_3056389536653312]' derivation='Sum' name='[sum:Calculation_3056389536653312:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='GanttBar' />
+            <encodings>
+              <size column='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[sum:Calculation_3056389536653312:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[sum:Calculation_3056389536653312:qk]</rows>
+        <cols>[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{65548412-598D-499E-B943-132D5C944D3E}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>New Zealand Water Physical Stock Account Analysis (1995-2010)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Water_Data_Long (nz_water_data_long)' name='federated.0tepc251nzdbhi14nu1rk0xlgrfb' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0tepc251nzdbhi14nu1rk0xlgrfb'>
+        <column datatype='string' name='[Component]' role='dimension' type='nominal' />
+        <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+        <column-instance column='[Component]' derivation='None' name='[none:Component:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97664' id='15' param='vert' type-v2='layout-flow' w='98698' x='651' y='1168'>
+            <zone h='5694' id='16' type-v2='title' w='98698' x='651' y='1168'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='91970' id='7' param='horz' type-v2='layout-flow' w='98698' x='651' y='6862'>
+              <zone h='91970' id='5' type-v2='layout-basic' w='85679' x='651' y='6862'>
+                <zone h='22188' id='3' name='NZ Water Inflows' w='85679' x='651' y='6862'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='27445' id='9' name='NZ Water Outflows' w='85679' x='651' y='29050'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='21605' id='10' name='Annual Water Balance Bar Chart' w='85679' x='651' y='56495'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='20732' id='12' name='Water Components by Year' w='85679' x='651' y='78100'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='91970' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='13019' x='86330' y='6862'>
+                <zone h='9635' id='8' name='NZ Water Inflows' pane-specification-id='0' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Component:nk]' type-v2='color' w='13019' x='86330' y='6862'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='12555' id='11' name='Annual Water Balance Bar Chart' pane-specification-id='0' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Category:nk]' type-v2='color' w='13019' x='86330' y='16497'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='9489' id='13' name='Water Components by Year' pane-specification-id='0' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[sum:Volume:qk]' type-v2='color' w='13019' x='86330' y='29052'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='10073' id='17' name='NZ Water Inflows' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]' type-v2='filter' values='database' w='13019' x='86330' y='38541'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='19999' id='18' name='NZ Water Outflows' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Component:nk]' type-v2='filter' values='database' w='13019' x='86330' y='48614'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='10073' id='19' name='NZ Water Outflows' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]' type-v2='filter' values='database' w='13019' x='86330' y='68613'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='10073' id='20' name='Annual Water Balance Bar Chart' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]' type-v2='filter' values='database' w='13019' x='86330' y='78686'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='10073' id='21' name='Water Components by Year' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]' type-v2='filter' values='database' w='13019' x='86330' y='88759'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontcolor='#000000' fontname='Benton Sans Book'>New Zealand Water Physical Stock Account Analysis (1995-2010)</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97664' id='24' param='vert' type-v2='layout-flow' w='98698' x='651' y='1168'>
+                <zone h='5694' id='16' type-v2='title' w='98698' x='651' y='1168'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10073' id='17' name='NZ Water Inflows' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]' type-v2='filter' values='database' w='13019' x='86330' y='38541'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='169' h='22188' id='3' is-fixed='true' name='NZ Water Inflows' w='85679' x='651' y='6862'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9635' id='8' name='NZ Water Inflows' pane-specification-id='0' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Component:nk]' type-v2='color' w='13019' x='86330' y='6862'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='19999' id='18' mode='checkdropdown' name='NZ Water Outflows' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Component:nk]' type-v2='filter' values='database' w='13019' x='86330' y='48614'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10073' id='19' name='NZ Water Outflows' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]' type-v2='filter' values='database' w='13019' x='86330' y='68613'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='212' h='27445' id='9' is-fixed='true' name='NZ Water Outflows' w='85679' x='651' y='29050'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10073' id='20' name='Annual Water Balance Bar Chart' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]' type-v2='filter' values='database' w='13019' x='86330' y='78686'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='165' h='21605' id='10' is-fixed='true' name='Annual Water Balance Bar Chart' w='85679' x='651' y='56495'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12555' id='11' name='Annual Water Balance Bar Chart' pane-specification-id='0' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Category:nk]' type-v2='color' w='13019' x='86330' y='16497'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10073' id='21' name='Water Components by Year' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Year:qk]' type-v2='filter' values='database' w='13019' x='86330' y='88759'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='158' h='20732' id='12' is-fixed='true' name='Water Components by Year' w='85679' x='651' y='78100'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9489' id='13' name='Water Components by Year' pane-specification-id='0' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[sum:Volume:qk]' type-v2='color' w='13019' x='86330' y='29052'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{2D8AAF9D-718F-4002-8BB6-9926530C2E77}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='0.875' source-height='51'>
+    <window class='worksheet' name='NZ Water Inflows'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Component:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F7E7B283-56DE-47D1-B5CB-3DCD88ABE7FF}' />
+    </window>
+    <window class='worksheet' name='NZ Water Outflows'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Component:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{156FE779-F57D-4FC9-9409-36809DAED64A}' />
+    </window>
+    <window class='worksheet' name='Annual Water Balance Bar Chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[none:Category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{25A59F42-FE03-43F3-80F8-4D8FCEC8F5D9}' />
+    </window>
+    <window class='worksheet' name='Water Components by Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0tepc251nzdbhi14nu1rk0xlgrfb].[sum:Volume:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7B547692-B958-40CD-B441-170411C760B6}' />
+    </window>
+    <window class='worksheet' name='Waterfall'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{792A6B3D-0CFF-44E4-8EAF-B9CB9F8F5A24}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Annual Water Balance Bar Chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='NZ Water Inflows'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='NZ Water Outflows'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Water Components by Year' />
+      </viewpoints>
+      <active id='12' />
+      <simple-id uuid='{62AC4D48-DBB3-41F4-8D75-FDF583BE0137}' />
+    </window>
+    <window class='worksheet' name='KPI Inflows'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4296AA53-88C9-441B-AFD6-689473ADB0EB}' />
+    </window>
+  </windows>
+</workbook>
